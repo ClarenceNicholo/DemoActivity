@@ -1,98 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Clarence Nicholo Culala - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #121212;
-      color: #e0e0e0;
-    }
-    header {
-      background: #1f1f1f;
-      color: #ffffff;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      font-weight: 600;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-      color: #b0b0b0;
-      font-weight: 300;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      background: #2c2c2c;
-      padding: 0.75rem;
-    }
-    nav a {
-      color: #90caf9;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    nav a:hover {
-      color: #64b5f6;
-    }
-    section {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    h2 {
-      border-bottom: 2px solid #90caf9;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-      color: #ffffff;
-      font-weight: 600;
-    }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem;
-    }
-    .card {
-      background: #1e1e1e;
-      border-radius: 10px;
-      padding: 1rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
-    }
-    .card h3 {
-      margin-top: 0;
-      color: #90caf9;
-      font-weight: 500;
-    }
-    footer {
-      text-align: center;
-      background: #1f1f1f;
-      color: #b0b0b0;
-      padding: 1rem;
-      margin-top: 2rem;
-      font-weight: 300;
-    }
-    .contact a {
-      color: #90caf9;
-      text-decoration: none;
-      font-weight: 400;
-    }
-    .contact a:hover {
-      color: #64b5f6;
-    }
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    header, footer { text-align: center; }
+    section { margin-top: 20px; }
+    .card { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
   </style>
 </head>
 <body>
@@ -101,18 +16,9 @@
     <p>BSIT 4th Year Student</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Clarence Nicholo Culala, a 4th year Bachelor of Science in Information Technology (BSIT) student. 
-    I am passionate about technology, web development, and creating innovative digital solutions. 
-    I enjoy learning new skills and applying them in real-world projects that help me grow as a future IT professional.</p>
+    <p>I'm Clarence Nicholo Culala, a 4th year BSIT student. I like web development and tech projects.</p>
   </section>
 
   <section id="skills">
@@ -120,37 +26,34 @@
     <ul>
       <li>HTML, CSS, JavaScript</li>
       <li>Java, Python, C#</li>
-      <li>Database Management (MySQL, SQL Server)</li>
+      <li>Databases (MySQL, SQL Server)</li>
       <li>Web Development</li>
-      <li>Problem Solving & Team Collaboration</li>
     </ul>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>A personal website showcasing my projects, skills, and background as a BSIT student.</p>
-      </div>
-      <div class="card">
-        <h3>Moisture Checker for Plants</h3>
-        <p>A hardware and software system that monitors soil moisture levels and helps automate plant care.</p>
-      </div>
-      <div class="card">
-        <h3>Pet Food Automater</h3>
-        <p>An IoT-based project that automates pet feeding schedules using a mobile application.</p>
-      </div>
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>My personal site with projects and skills.</p>
+    </div>
+    <div class="card">
+      <h3>Moisture Checker</h3>
+      <p>A project to check soil moisture for plants.</p>
+    </div>
+    <div class="card">
+      <h3>Pet Food Automater</h3>
+      <p>An IoT project that automates pet feeding.</p>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>You can reach me at: <a href="mailto:clarenceculala@gmail.com">clarenceculala@gmail.com</a></p>
+    <p>Email: <a href="mailto:clarenceculala@gmail.com">clarenceculala@gmail.com</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Clarence Nicholo Culala | BSIT 4th Year Student</p>
+    <p>&copy; 2025 Clarence Nicholo Culala</p>
   </footer>
 </body>
 </html>
